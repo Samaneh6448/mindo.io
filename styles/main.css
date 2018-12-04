@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'FFNettoWebPro';
+  src: url("../fonts/2EDB3A_0_0.eot");
+  src: url("../fonts/2EDB3A_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2EDB3A_0_0.woff2") format("woff2"), url("../fonts/2EDB3A_0_0.woff") format("woff"), url("../fonts/2EDB3A_0_0.ttf") format("truetype");
+}
+
+/* $icon-font-path: '../fonts/';
+$brand-primary: #76c096;
+$font-size-base: 18px;
+$btn-primary-bg: $brand-primary;
+$font-family-base: 'FFNettoWebPro';
+$headings-font-family: 'FFNettoWebPro';
+
+@import "node_modules/font-awesome/scss/font-awesome.scss"; */
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: "FFNettoWebPro";
+  font-size: 18px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #fff;
+}
+
+.block {
+  padding: 40px;
+  color: white;
+}
+
+.block-main {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../images/backdrop.jpg");
+}
+
+.block-main .content {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: #EEE;
+  border-radius: 7px;
+}
+
+.block-main .content h1 {
+  color: #76c096;
+  font-size: 46px;
+  margin: 10 0 0 0;
+}
+
+.block-main .content h2 {
+  color: #444;
+}
+
+.list-unstyled li {
+  padding-left: 0;
+  color: white;
+}
+
+.block-services {
+  background-color: #91C9E8;
+  color: white;
+}
+
+.block-staff {
+  background-color: #67B8DE;
+  color: white;
+}
+
+.block-staff small {
+  display: block;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.block-contact {
+  background-color: #3399CC;
+  color: white;
+}
+
+.block-contact a {
+  margin: 20px 0 0 0;
+  color: white;
+}
+
+.trail-0 {
+  margin-bottom: 0;
+}
+
+.row [class*='col'] {
+  margin-bottom: 20px;
+}
+
+.fa + .fa {
+  margin-left: 10px;
+}
