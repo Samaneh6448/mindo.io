@@ -1,1 +1,1 @@
-https://github.com/mindoio/mindo.io/blob/
+https://www.github.com/mindoio/mindo.io/blob/
